@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * Name: 
- * Date:
- * Description:
+ * Name: Yanying Zhang
+ * Date: July 11, 2017
+ * Description: Demo for Lesson 9
  * Version: 0.1 - Create the Progam class
  */
 namespace COMP123_S2017_L9
