@@ -7,7 +7,7 @@ using System.Text;
  * Name: Yanying Zhang
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
- * Version: 0.2 - Aded _initialize method
+ * Version: 0.3 - AddPower method
  */
 namespace COMP123_S2017_L9
 {
@@ -49,5 +49,14 @@ namespace COMP123_S2017_L9
 
         //PUBLIC METHODS
 
+            /// <summary>
+            /// This metod adds a power to the Power list.
+            /// </summary>
+            /// <param name="name"></param>
+            /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
     }
 }
