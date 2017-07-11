@@ -21,5 +21,6 @@ namespace COMP123_S2017_L9
         public int Rank { get; set; }
 
         //CONSTRUTORS
+
     }
 }
