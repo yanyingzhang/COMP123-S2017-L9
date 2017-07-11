@@ -22,5 +22,16 @@ namespace COMP123_S2017_L9
 
         //CONSTRUTORS
 
+        /// <summary>
+        /// This is the main constructor for the Power class.
+        /// It takes two arguments - name(string), rank(int).
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public Power(string name, int rank)
+        {
+            this.Name = name;
+            this.Rank = rank;
+        }
     }
 }

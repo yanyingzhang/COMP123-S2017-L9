@@ -20,6 +20,12 @@ namespace COMP123_S2017_L9
         private List<Power> _prowers;
 
         //PUBLIC PROPERTIES
+        public List<Power> Powers{
+            get
+            {
+                return this._prowers; // this returns a reference
+            }
+            }
 
         //CONSTRUCTORS
 
