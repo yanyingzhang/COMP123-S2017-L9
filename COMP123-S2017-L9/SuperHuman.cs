@@ -7,7 +7,7 @@ using System.Text;
  * Name: Yanying Zhang
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
- * Version: 0.3 - AddPower method
+ * Version: 0.4 - Added DisplayPower method
  */
 namespace COMP123_S2017_L9
 {
@@ -57,6 +57,17 @@ namespace COMP123_S2017_L9
         public void AddPower(string name, int rank)
         {
             this.Powers.Add(new Power(name, rank));
+        }
+
+        /// <summary>
+        /// This method diaplays each f the Powers stored in the Powers list
+        /// </summary>
+        public void DisplayPowers()
+        {
+            foreach(Power power in this.Powers)
+            {
+                Console.WriteLine("Power: " + power.Name + "Rank: " + power.Rank);
+            }
         }
     }
 }
