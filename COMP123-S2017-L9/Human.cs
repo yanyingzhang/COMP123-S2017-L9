@@ -7,7 +7,7 @@ using System.Text;
  * Name: Yanying Zhang
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
- * Version: 0.1 - Create the Progam class
+ * Version: 0.1 - Create the Human class
  */
 namespace COMP123_S2017_L9
 {
