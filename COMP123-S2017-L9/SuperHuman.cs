@@ -83,7 +83,7 @@ namespace COMP123_S2017_L9
             outputString += "====================================\n";
             foreach(Power power in this.Powers)
             {
-                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
             }
 
             return outputString;

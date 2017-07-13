@@ -8,8 +8,7 @@ using System.Threading.Tasks;
  * Name: Yanying Zhang
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
- * Version: 0.4 - Added another power to the SuperHero object
- *              - Display all the powers in the Powers List
+ * Version: 0.5 - Add superVillain object and display it by using ToString method in the SuperHuman class
  */
 namespace COMP123_S2017_L9
 {
@@ -25,7 +24,11 @@ namespace COMP123_S2017_L9
             Console.WriteLine(superHero.ToString());
             Console.WriteLine("Karma: "+ superHero.Karma);
 
-            
+            SuperVillain superVillain = new SuperVillain("BadFlash", 10);
+            superVillain.AddPower("Bully",51);
+            superVillain.AddPower("Run fast", 19);
+            Console.WriteLine(superVillain.ToString());
+            Console.WriteLine("Villain"+ superVillain.Villain);
         }
     }
 }
