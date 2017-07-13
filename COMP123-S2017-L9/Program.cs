@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Yanying Zhang
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
- * Version: 0.4 - Added another power to the SuperHuman object
+ * Version: 0.4 - Added another power to the SuperHero object
  *              - Display all the powers in the Powers List
  */
 namespace COMP123_S2017_L9
@@ -17,12 +17,13 @@ namespace COMP123_S2017_L9
     {
         static void Main(string[] args)
         {
-            SuperHuman superHuman = new SuperHuman("Super Dude");
-            superHuman.AddPower("Spider Climbing",50);
-            superHuman.AddPower("Webcasting", 40);
-            superHuman.AddPower("Phasing", 30);
-            superHuman.AddPower("Invisibility", 25);
-            Console.WriteLine(superHuman.ToString());
+            SuperHero superHero = new SuperHero("SuperHero Dude",20);
+            superHero.AddPower("Spider Climbing",50);
+            superHero.AddPower("Webcasting", 40);
+            superHero.AddPower("Phasing", 30);
+            superHero.AddPower("Invisibility", 25);
+            Console.WriteLine(superHero.ToString());
+            Console.WriteLine("Karma: "+ superHero.Karma);
 
             
         }
