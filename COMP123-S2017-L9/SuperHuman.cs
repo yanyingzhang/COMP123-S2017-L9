@@ -66,7 +66,7 @@ namespace COMP123_S2017_L9
         {
             foreach(Power power in this.Powers)
             {
-                Console.WriteLine("Power: " + power.Name + "Rank: " + power.Rank);
+                Console.WriteLine("Power: " + power.Name + " Rank: " + power.Rank);
             }
         }
         // PUBLIC OVERRIDDEN METHOD

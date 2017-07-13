@@ -3,14 +3,14 @@
   <Class Name="COMP123_S2017_L9.Human">
     <Position X="1.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_L9.SuperHuman">
     <Position X="3.5" Y="1" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAAEAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAIEAAAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -21,5 +21,12 @@
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="COMP123_S2017_L9.IHasKarma">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasKarma.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
