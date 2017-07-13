@@ -19,6 +19,7 @@ namespace COMP123_S2017_L9
     {
         // private instance variables - interface cannot contain fields!!!
         // private int _karma;  -- ERROR
+        
         // public properties
         int Karma { get; set; }
     }
