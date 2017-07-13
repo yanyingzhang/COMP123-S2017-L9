@@ -7,7 +7,7 @@ using System.Text;
  * Name: Yanying Zhang
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
- * Version: 0.4 - Added DisplayPower method
+ * Version: 0.4 - Added Overrideen method ToString
  */
 namespace COMP123_S2017_L9
 {
@@ -68,6 +68,24 @@ namespace COMP123_S2017_L9
             {
                 Console.WriteLine("Power: " + power.Name + "Rank: " + power.Rank);
             }
+        }
+
+        /// <summary>
+        /// Overridden the built-in 
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "====================================\n";
+            outputString += "SuperHuman Name: " + this.Name + "\n";
+            outputString += "====================================\n";
+            foreach(Power power in this.Powers)
+            {
+                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+            }
+
+            return outputString;
         }
     }
 }
