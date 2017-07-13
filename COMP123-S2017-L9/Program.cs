@@ -25,7 +25,7 @@ namespace COMP123_S2017_L9
             Console.WriteLine("Karma: "+ superHero.Karma);
 
             SuperVillain superVillain = new SuperVillain("BadFlash", 10);
-            superVillain.AddPower("Bully",51);
+            superVillain.AddPower("Change Time",10);
             superVillain.AddPower("Run fast", 19);
             Console.WriteLine(superVillain.ToString());
             Console.WriteLine("Villain"+ superVillain.Villain);
