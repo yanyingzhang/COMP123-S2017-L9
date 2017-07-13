@@ -20,7 +20,11 @@ namespace COMP123_S2017_L9
             SuperHuman superHuman = new SuperHuman("Super Dude");
             superHuman.AddPower("Spider Climbing",50);
             superHuman.AddPower("Webcasting", 40);
-            superHuman.DisplayPowers();
+            superHuman.AddPower("Phasing", 30);
+            superHuman.AddPower("Invisibility", 25);
+            Console.WriteLine(superHuman.ToString());
+
+            
         }
     }
 }
