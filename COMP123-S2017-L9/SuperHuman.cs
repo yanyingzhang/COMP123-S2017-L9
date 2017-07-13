@@ -7,7 +7,7 @@ using System.Text;
  * Name: Yanying Zhang
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
- * Version: 0.4 - Added Overrideen method ToString
+ * Version: 0.5 - Added Stub Method dISPLAYsKILLS TO CONFORM to Human Abstract class
  */
 namespace COMP123_S2017_L9
 {
@@ -69,6 +69,7 @@ namespace COMP123_S2017_L9
                 Console.WriteLine("Power: " + power.Name + "Rank: " + power.Rank);
             }
         }
+        // PUBLIC OVERRIDDEN METHOD
 
         /// <summary>
         /// Overridden the built-in 
@@ -87,5 +88,15 @@ namespace COMP123_S2017_L9
 
             return outputString;
         }
+
+        /// <summary>
+        /// This is the DisplaySkills Method
+        /// Needs to be implemented...
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented!");
+        }
+
     }
 }
