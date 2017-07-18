@@ -7,7 +7,7 @@ using System.Text;
  * Name: Yanying Zhang
  * Date: July 13, 2017
  * Description: This is the SuperVillain subclass of the SuperHuman base class 
- * Version: 0.1 - Create SuperVillain class
+ * Version: 0.2 - Modified SuperVillain class
  */
 namespace COMP123_S2017_L9
 {
@@ -18,24 +18,24 @@ namespace COMP123_S2017_L9
     public class SuperVillain : SuperHuman, IHasMalice
     {
         // PRIVATE PROPERTIES
-        private int _villain;
+        private int _malice;
         // PUBLIC PROPERTIES
-        public int Villain
+        public int Malice
         {
             get
             {
-                return this._villain;
+                return this._malice;
             }
             set
             {
-                this._villain = value;
+                this._malice = value;
             }
         }
         // CONSTRACTOR
-        public SuperVillain(string name, int villain)
+        public SuperVillain(string name, int malice)
             : base(name)
         {
-            this._villain = villain;
+            this.Malice = malice;
         }
         // PRIVATE METHODS
         // PUBLIC METHODS
