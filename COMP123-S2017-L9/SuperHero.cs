@@ -7,7 +7,7 @@ using System.Text;
  * Name: Yanying Zhang
  * Date: July 13, 2017
  * Description: This is the SuperHero Class, which inherits from the SuperHuman clss and implemented 
- * Version: 0.2 - Modified constractor
+ * Version: 0.3 - Modified constractor 
  */
 namespace COMP123_S2017_L9
 {
@@ -41,7 +41,7 @@ namespace COMP123_S2017_L9
         public SuperHero(string name, int karma)
             :base(name)
         {
-            this._karma = karma;
+            this.Karma = karma;
         }
         // private methods
 
